@@ -677,6 +677,7 @@ body {
   color: #f7dd4b;
 }
 .features-intro img {
+  margin: auto;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -687,8 +688,6 @@ body {
 @media ( max-width: 500px ) {
   .features-intro p {
     font-size: 7em;
-    margin-top: 20px;
-    width: 90%;
     text-align: center;
     line-height: 3em;
   }
@@ -764,14 +763,13 @@ body {
   justify-content: space-between;
 }
 .feature-page .feature-img img {
-  border-radius: 70em;
-  width: 100%;
+  margin: auto;
+  border-radius: 70px;
+  width: 90%;
 }
 @media ( max-width: 500px ) {
   .feature-page .feature-img {
-    margin: auto;
-    width: 50%;
-    height: 50%;
+    border-radius: none;
   }
 }
 .section-title {
