@@ -1,9 +1,8 @@
-
 .carousel {
     display:flex;
     align-items: center;
     justify-content: center;
-    height: 450px;
+    // height: 450px;
     overflow: hidden;
     
       img{
@@ -25,17 +24,16 @@
       }
 
       @media screen and (max-width: 500px){
-          
-          height: 260px;
+         visibility: visible;
       }
 }
 
 .mobile-intro{
     @media screen and (min-width: 0px) and(max-width: 500px) {
-        display: none;
+        visibility: visible;
     }
 
     @media screen and (min-width: 501px) and (max-width: 5000px){
-        display:none;
+        visibility: visible;
     }
 }
