@@ -810,8 +810,6 @@ body {
 }
 @media ( max-width: 500px ) {
   .pricing-intro p {
-    margin-top: 20px;
-    width: 90%;
     text-align: center;
   }
 }
