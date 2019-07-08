@@ -789,8 +789,6 @@ body {
 @media ( max-width: 500px ) {
   .demo-preview p {
     font-size: 2rem;
-    margin-top: 20px;
-    width: 90%;
     text-align: center;
   }
 }
