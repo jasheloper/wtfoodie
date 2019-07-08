@@ -296,7 +296,7 @@ body {
 }
 @media ( max-width: 500px ) {
   .about-section-content .features-img {
-    width: 40em;
+    width: 90%;
   }
 }
 .features-section {
