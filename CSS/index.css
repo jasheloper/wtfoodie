@@ -278,6 +278,7 @@ body {
     display: flex;
     flex-flow: column;
     font-size: 2.4rem;
+    padding: 0.5em;
     margin: auto;
   }
 }
@@ -294,6 +295,11 @@ body {
   margin: auto;
   display: block;
   width: 70%;
+}
+@media ( max-width: 500px ) {
+  .about-section-content {
+    width: 100%;
+  }
 }
 .features-section {
   justify-content: space-between;
