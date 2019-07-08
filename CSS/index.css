@@ -645,7 +645,8 @@ body {
 }
 @media screen and (max-width: 500px) {
   .carousel {
-    display: none;
+    padding: 5px;
+    height: 247px;
   }
 }
 @media screen and (min-width: 0px) and (max-width: 500px) {
@@ -656,6 +657,14 @@ body {
 @media screen and (min-width: 501px) and (max-width: 5000px) {
   .mobile-intro {
     display: none;
+  }
+}
+.subheader {
+  display: none;
+}
+@media ( max-width: 500px ) {
+  .subheader {
+    width: 100%;
   }
 }
 .about-us-content {
