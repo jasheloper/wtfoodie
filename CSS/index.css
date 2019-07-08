@@ -645,7 +645,7 @@ body {
 }
 @media screen and (max-width: 500px) {
   .carousel {
-    height: 220px;
+    height: 260px;
   }
 }
 @media screen and (min-width: 0px) and (max-width: 500px) {
