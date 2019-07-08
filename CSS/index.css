@@ -760,12 +760,10 @@ body {
 }
 .feature-page .feature-img {
   display: flex;
-  justify-content: space-between;
 }
 .feature-page .feature-img img {
   margin: auto;
-  border-radius: 70px;
-  width: 90%;
+  width: 100%;
 }
 @media ( max-width: 500px ) {
   .feature-page .feature-img {
