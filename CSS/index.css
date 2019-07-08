@@ -775,7 +775,7 @@ body {
 }
 @media ( max-width: 500px ) {
   .feature-page .feature-img {
-    border-radius: none;
+    display: none;
   }
 }
 .section-title {
