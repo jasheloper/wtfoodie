@@ -645,13 +645,12 @@ body {
 }
 @media screen and (max-width: 500px) {
   .carousel {
-    padding: 5px;
-    height: 247px;
+    height: 220px;
   }
 }
 @media screen and (min-width: 0px) and (max-width: 500px) {
   .mobile-intro {
-    visibility: visible;
+    display: none;
   }
 }
 @media screen and (min-width: 501px) and (max-width: 5000px) {
