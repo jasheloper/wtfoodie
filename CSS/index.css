@@ -273,11 +273,9 @@ body {
 }
 @media ( max-width: 500px ) {
   .about-section-content {
-    margin-top: 20px;
-    width: 90%;
     display: flex;
     flex-flow: column;
-    font-size: 2.4rem;
+    font-size: 2.5rem;
     padding: 0.5em;
     margin: auto;
   }
@@ -294,11 +292,11 @@ body {
 .about-section-content .features-img {
   margin: auto;
   display: block;
-  width: 70%;
+  width: 70em;
 }
 @media ( max-width: 500px ) {
-  .about-section-content {
-    width: 100%;
+  .about-section-content .features-img {
+    width: 46em;
   }
 }
 .features-section {
@@ -675,6 +673,11 @@ body {
   font-size: 2rem;
   line-height: 2.5em;
 }
+@media ( max-width: 500px ) {
+  .about-us-content {
+    text-align: center;
+  }
+}
 .features-intro {
   line-height: 8em;
   text-align: center;
@@ -746,11 +749,11 @@ body {
   padding: 1em;
   display: flex;
   justify-content: center;
-  line-height: 2em;
 }
 @media ( max-width: 500px ) {
   .feature-page .feature-name {
-    font-size: 3.5rem;
+    font-size: 3rem;
+    line-height: 1em;
   }
 }
 .feature-page .features-text {
