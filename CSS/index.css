@@ -767,6 +767,13 @@ body {
   border-radius: 70em;
   width: 100%;
 }
+@media ( max-width: 500px ) {
+  .feature-page .feature-img {
+    margin: auto;
+    width: 100%;
+    height: 50%;
+  }
+}
 .section-title {
   margin-block-start: 0em;
   margin-block-end: 0em;
