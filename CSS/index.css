@@ -679,8 +679,6 @@ body {
 }
 .features-intro .features-title {
   font-size: 3rem;
-  display: flex;
-  justify-content: center;
   color: #f7dd4b;
 }
 .features-intro img {
@@ -730,18 +728,16 @@ body {
 }
 @media ( max-width: 500px ) {
   .feature-page .feature-page-box {
-    width: 100%;
-    margin: 10px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 25px;
   }
 }
 .feature-page .feature-name {
   font-size: 2.6rem;
   color: #f7dd4b;
   width: 100%;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  padding: 1em;
   display: flex;
   justify-content: center;
 }
@@ -766,7 +762,7 @@ body {
   }
 }
 .feature-page .feature-img {
-  display: flex;
+  padding: 1em;
 }
 .feature-page .feature-img img {
   margin: auto;
@@ -774,7 +770,7 @@ body {
 }
 @media ( max-width: 500px ) {
   .feature-page .feature-img {
-    display: none;
+    padding: 2em;
   }
 }
 .section-title {
